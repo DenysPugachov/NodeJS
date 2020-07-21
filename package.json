@@ -4,7 +4,7 @@
     "description": "this is test form nodeJS",
     "main": "index.js",
     "scripts": {
-        "start": "nodemon index.js",
+        "start": "nodemon index.js --open",
         "prod": "node index.js"
     },
     "keywords": [
@@ -14,12 +14,18 @@
         "javascript"
     ],
     "author": "Denys Pugachov",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:DenysPugachov/NodeJS.git"
+    },
     "license": "ISC",
     "dependencies": {
-        "bluebird": "^3.7.2",
         "body-parser": "^1.19.0",
         "ejs": "^3.1.3",
-        "express": "^4.17.1"
+        "express": "^4.17.1",
+        "node-fetch": "^2.6.0",
+        "request": "^2.88.2",
+        "request-promise": "^4.2.5"
     },
     "devDependencies": {
         "nodemon": "^2.0.4"
